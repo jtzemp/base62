@@ -1,8 +1,8 @@
 require 'base62/version'
 
-AUTHOR = 'FIXME full name'  # can also be an array of Authors
-EMAIL = "FIXME email"
-DESCRIPTION = "description of gem"
+AUTHOR = 'JT Zemp'  # can also be an array of Authors
+EMAIL = "jt.zemp@thriveis.com"
+DESCRIPTION = "The base62 gem monkeypatches Integer and String. It creates an Integer#base62_encode instance method to encode integers into a string with this set of characters: 0-9 + A-Z + a-z. It also creates a String#base62_decode method to reverse the encoded string back into an integer."
 GEM_NAME = 'base62' # what ppl will type to install your gem
 RUBYFORGE_PROJECT = 'base62' # The unix name for your project
 HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"

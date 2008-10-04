@@ -24,7 +24,7 @@ h2. How to submit patches
 
 Read the "8 steps for fixing other people's code":http://drnicwilliams.com/2007/06/01/8-steps-for-fixing-other-peoples-code/. It's good, but doesn't have instructions for GitHub, so come back here after you're done and read on.
 
-If you want to submit patches, the project code is on GitHub. Here are good instructions for submitting patches through GitHub: http://github.com/guides/fork-a-project-and-submit-your-modifications
+If you want to submit patches (or check out the code to see how to change from base 10 to base 62) the project code is on GitHub. Here are good instructions for submitting patches through GitHub: http://github.com/guides/fork-a-project-and-submit-your-modifications
 
 * github: "http://github.com/jtzemp/base62/tree/master":http://github.com/jtzemp/base62/tree/master
 
@@ -43,5 +43,5 @@ This code is free to use under the terms of the MIT license.
 
 h2. Contact
 
-Comments are welcome. Send an email to "JT Zemp":mailto:jt.zemp@thriveis.com, or go to http://geekjacking.com/base62_gem and leave a comment there.
+Comments are welcome. I'd love to know if you're using it just out of curiosity. Send an email to JT dot Zemp at the domain thriveis.com, or go to http://geekjacking.com/base62_gem and leave a comment there.
 
