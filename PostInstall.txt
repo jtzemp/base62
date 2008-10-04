@@ -1,7 +1,3 @@
 
-For more information on base62, see http://base62.rubyforge.org
-
-NOTE: Change this information in PostInstall.txt 
-You can also delete it if you don't want it.
-
+For more information on base62, see http://geekjacking.com/base62_gem or http://base62.rubyforge.org
 

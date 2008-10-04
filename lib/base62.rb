@@ -1,12 +1,3 @@
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
-
-module Base62
-  
-end
-
-#!/usr/bin/env ruby
-
 class String
   BASE62_PRIMITIVES = {
     "0" => 0,
