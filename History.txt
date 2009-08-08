@@ -1,3 +1,7 @@
+== 0.1.1 2009-11-4
+
+* Ruby 1.9 compatible thx to Saadiq Rodgers-King
+
 == 0.1.0 2008-10-04
 
 * 1 major enhancement:

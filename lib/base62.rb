@@ -78,7 +78,7 @@ end
 
 
 class Integer
-  BASE62_PRIMITIVES = (0..9).collect { |i| i.to_s } + ('A'..'Z').collect + ('a'..'z').collect
+  BASE62_PRIMITIVES = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a + ('a'..'z').to_a
   
   def base62_encode
      number = self
