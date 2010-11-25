@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
     s.require_path = 'lib'
     s.test_files   = Dir['test/*.rb']
 
-    s.authors = ["JT Zemp", "Saadiq Rodgers-King"]
+    s.authors = ["JT Zemp", "Saadiq Rodgers-King", "Derrick Camerino"]
     s.email   = %q{jtzemp's email}
     s.homepage = "http://base62.rubyforge.org/"
 
