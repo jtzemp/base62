@@ -12,7 +12,8 @@ Base62 monkeypatches Integer to add an Integer#base62_encode instance method to 
 
 == THANKS:
 
-* Saadiq Rodgers-King (http://github.com/saadiq) for making it work with Ruby 1.9
+* Saadiq Rodgers-King (http://github.com/saadiq) for making it work with Ruby 1.9.
+* Derrick Camerino (https://github.com/robustdj) for adding a Gemspec.
 
 == LICENSE:
 
