@@ -1,3 +1,0 @@
-
-For more information on base62, see http://geekjacking.com/base62_gem or http://base62.rubyforge.org
-
