@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
                        String#base62_decode to take the string and turn it back
                        into a valid integer.}
 
-    s.files        = Dir['[A-Z]*', 'lib/**/*.rb', 'spec/**/*.rb', 'features/**/*', 'rails/**/*']
+    s.files        = Dir['[A-Z]*', 'lib/**/*.rb', 'test/*.rb']
     s.require_path = 'lib'
     s.test_files   = Dir['test/*.rb']
 
@@ -23,6 +23,6 @@ Gem::Specification.new do |s|
     s.homepage = "http://base62.rubyforge.org/"
 
     s.platform = Gem::Platform::RUBY
-    s.rubygems_version = %q{0.1.0}
+    s.rubygems_version = %q{0.1.1}
 end
 

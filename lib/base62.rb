@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + "/base62/version"
+
 class String
   BASE62_PRIMITIVES = {
     "0" => 0,
@@ -79,7 +81,7 @@ end
 
 class Integer
   BASE62_PRIMITIVES = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a + ('a'..'z').to_a
-  
+
   def base62_encode
      number = self
      result = ''
