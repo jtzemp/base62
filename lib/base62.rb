@@ -83,6 +83,7 @@ class Integer
   BASE62_PRIMITIVES = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a + ('a'..'z').to_a
 
   def base62_encode
+     return "0" if self == 0
      number = self
      result = ''
      while(number != 0)

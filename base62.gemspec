@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     s.homepage = "http://github.com/jtzemp/base62"
 
     s.platform = Gem::Platform::RUBY
-    s.rubygems_version = %q{0.1.3}
+    s.rubygems_version = %q{0.1.4}
     s.licenses = ["MIT"]
 end
 

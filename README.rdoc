@@ -1,7 +1,3 @@
-= base62
-
-* http://geekjacking.com/base62_gem
-
 == DESCRIPTION:
 
 Base62 monkeypatches Integer to add an Integer#base62_encode instance method to encode an integer in the character set of 0-9 + A-Z + a-z. It also monkeypatches String to add String#base62_decode to take the string and turn it back into a valid integer.

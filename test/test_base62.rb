@@ -8,4 +8,10 @@ class TestBase62 < Test::Unit::TestCase
     end
   end
   
+  def test_0
+    assert_equal(0, "0".base62_decode)
+    assert_equal("0", 0.base62_encode)
+    assert_equal(0,  "".base62_decode)
+  end
+  
 end
