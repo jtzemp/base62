@@ -1,2 +1,2 @@
-require 'test/unit'
-require File.dirname(__FILE__) + '/../lib/base62'
+require "base62"
+require "test/unit"
