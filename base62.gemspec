@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.authors       = ["JT Zemp", "Saadiq Rodgers-King", "Derrick Camerino"]
   s.email         = ["jtzemp@gmail.com"]
   s.description   = %q{Base62 monkeypatches Integer to add an Integer#base62_encode
-                          instance method to encode an integer in the character set of
-                          0-9 + A-Z + a-z. It also monkeypatches String to add
-                          String#base62_decode to take the string and turn it back
-                          into a valid integer.}
-  s.summary       = %q{Monkeypatches Integer and String to allow for base62 encoding and decoding}
+                       instance method to encode an integer in the character set of
+                       0-9 + A-Z + a-z. It also monkeypatches String to add
+                       String#base62_decode to take the string and turn it back
+                       into a valid integer.}
+  s.summary       = %q{Monkeypatches Integer and String to allow for base62 encoding and decoding.}
   s.homepage      = "https://github.com/jtzemp/base62"
   s.license       = "MIT"
 
