@@ -33,4 +33,4 @@ require 'base62'
 * [Saadiq Rodgers-King](http://github.com/saadiq) for making it work with Ruby 1.9.
 * [Derrick Camerino](https://github.com/robustdj) for adding a Gemspec and prompting me to clean stuff up.
 
-Copyright (c) 2008-2013 [JT Zemp](https://github.com/jtzemp) & Thrive Information Solutions, released under the [MIT License](https://github.com/jtzemp/base62/blog/master/LICENSE.txt)
+Copyright (c) 2008-2013 [JT Zemp](https://github.com/jtzemp) & Thrive Information Solutions, released under the [MIT License](https://github.com/jtzemp/base62/blob/master/LICENSE.txt)
