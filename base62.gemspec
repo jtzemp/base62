@@ -5,8 +5,8 @@ require 'base62/version'
 Gem::Specification.new do |s|
   s.name          = "base62"
   s.version       = Base62::VERSION
-  s.authors       = ["JT Zemp", "Saadiq Rodgers-King", "Derrick Camerino"]
-  s.email         = ["jtzemp@gmail.com"]
+  s.authors       = ["JT Zemp", "Lasse Bunk", "Saadiq Rodgers-King", "Derrick Camerino"]
+  s.email         = ["jtzemp@gmail.com", "lasse@bunk.io"]
   s.description   = %q{Base62 monkeypatches Integer to add an Integer#base62_encode
                        instance method to encode an integer in the character set of
                        0-9 + A-Z + a-z. It also monkeypatches String to add

@@ -30,7 +30,8 @@ require 'base62'
 
 ## Thanks
 
+* [Lasse Bunk](https://github.com/lassebunk) for totally refactoring everything and bringing it into the modern age.
 * [Saadiq Rodgers-King](http://github.com/saadiq) for making it work with Ruby 1.9.
 * [Derrick Camerino](https://github.com/robustdj) for adding a Gemspec and prompting me to clean stuff up.
 
-Copyright (c) 2008-2013 [JT Zemp](https://github.com/jtzemp) & Thrive Information Solutions, released under the [MIT License](https://github.com/jtzemp/base62/blob/master/LICENSE.txt)
+Copyright (c) 2008-2014 [JT Zemp](https://github.com/jtzemp), released under the [MIT License](https://github.com/jtzemp/base62/blob/master/LICENSE.txt)
