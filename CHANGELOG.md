@@ -1,16 +1,18 @@
-== 0.1.3 2010-11-24
+# Base62 changelog
+
+## 0.1.3 (2010-11-24)
 
 * Cleaned out the crap that's not needed like hoe and rake tasks and newgem stuff
 
-== 0.1.2 2010-11-24
+## 0.1.2 (2010-11-24)
 
 * Derrick Camerino added a Gemspec
 
-== 0.1.1 2009-11-4
+## 0.1.1 (2009-11-4)
 
 * Ruby 1.9 compatible thx to Saadiq Rodgers-King
 
-== 0.1.0 2008-10-04
+## 0.1.0 (2008-10-04)
 
 * 1 major enhancement:
   * Initial release
