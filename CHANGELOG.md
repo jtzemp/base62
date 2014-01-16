@@ -1,5 +1,9 @@
 # Base62 changelog
 
+## 1.0.0 (2014-01-16)
+
+* Lasse Bunk refactored and modernized the whole shebang.
+
 ## 0.1.3 (2010-11-24)
 
 * Cleaned out the crap that's not needed like hoe and rake tasks and newgem stuff
