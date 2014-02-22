@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/jtzemp/base62.png)](http://travis-ci.org/jtzemp/base62)
+
 # Base62
 
 Base62 monkeypatches Integer to add an Integer#base62_encode instance method to encode an integer in the character set of 0-9 + A-Z + a-z. It also monkeypatches String to add String#base62_decode to take the string and turn it back into a valid integer.
