@@ -16,6 +16,7 @@ module Base62
     end
 
     def encode(int)
+      raise ArgumentError, "Can't Base62 encode negative number (#{int} given)" if int < 0
       return "0" if int == 0
 
       rem = int

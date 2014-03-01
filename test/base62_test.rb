@@ -49,4 +49,10 @@ class Base62Test < Test::Unit::TestCase
       assert_equal int, base62.base62_decode
     end
   end
+
+  def test_negative_numbers
+    assert_raises ArgumentError do
+      -1234.base62_encode
+    end
+  end
 end
