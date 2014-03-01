@@ -22,7 +22,7 @@ module Base62
       rem = int
       result = ''
       while rem != 0
-        result = PRIMITIVES[rem % PRIMITIVES.size].to_s + result
+        result.prepend PRIMITIVES[rem % PRIMITIVES.size]
         rem /= PRIMITIVES.size
       end
       result
