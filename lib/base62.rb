@@ -19,12 +19,12 @@ module Base62
       raise ArgumentError, "Can't Base62 encode negative number (#{int} given)" if int < 0
       return "0" if int == 0
 
-      rem = int
       result = ''
-      while rem != 0
-        result.prepend PRIMITIVES[rem % PRIMITIVES.size]
-        rem /= PRIMITIVES.size
+      while int > 0
+        result.prepend PRIMITIVES[int % PRIMITIVES.size]
+        int /= PRIMITIVES.size
       end
+
       result
     end
   end
