@@ -8,7 +8,7 @@ module Base62
   class << self
     def decode(str)
       out = 0
-      str.split(//).reverse.each_with_index do |char, index|
+      str.chars.reverse.each_with_index do |char, index|
         place = PRIMITIVES.size ** index
         out += PRIMITIVES.index(char) * place
       end
