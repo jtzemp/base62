@@ -2,7 +2,7 @@
 
 ## 2.0.0 (not yet released)
 
-* The `Integer` and `String` extensions are no longer loaded by default. `require 'base62/ext'` to do this.
+* The `Integer#base62_encode` and `String#base62_decode` extensions are no longer loaded by default. `require 'base62/ext'` to do this from now on.
 
 ## 1.0.0 (2014-01-16)
 
