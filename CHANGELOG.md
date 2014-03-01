@@ -1,5 +1,9 @@
 # Base62 changelog
 
+## 2.0.0 (not yet released)
+
+* The `Integer` and `String` extensions are no longer loaded by default. `require 'base62/ext'` to do this.
+
 ## 1.0.0 (2014-01-16)
 
 * Lasse Bunk refactored and modernized the whole shebang.

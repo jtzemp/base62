@@ -1,6 +1,4 @@
 require "base62/version"
-require "base62/string"
-require "base62/integer"
 
 module Base62
   PRIMITIVES = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a + ('a'..'z').to_a
